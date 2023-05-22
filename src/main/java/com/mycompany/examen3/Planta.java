@@ -1,7 +1,7 @@
 
 package com.mycompany.examen3;
 
-public class Planta {
+public abstract class Planta {
     
     protected String nombre;
     protected double altoTallo;
@@ -55,7 +55,8 @@ public class Planta {
         return "Planta{" + "nombre=" + nombre + ", altoTallo=" + altoTallo + ", tieneHojas=" + tieneHojas + ", climaIdeal=" + climaIdeal + '}';
     }
     
-    
+    //método abstracto
+    public abstract void mostrarMensaje1();
     
     
 }

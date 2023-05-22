@@ -96,6 +96,11 @@ public class Arbusto extends Planta{
     public void mostrarMensajeArbusto(){
         System.out.println("Hola soy un arbusto");
     }
+
+    @Override
+    public void mostrarMensaje1() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
 }

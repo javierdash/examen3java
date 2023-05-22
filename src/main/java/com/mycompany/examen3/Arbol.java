@@ -95,7 +95,12 @@ public class Arbol extends Planta{
     }
     
     //métodos propios:
-    public void mostrarMensaje(){
+//    public void mostrarMensaje(){
+//        System.out.println("Hola soy un arbol");
+//    }
+
+    @Override
+    public void mostrarMensaje1() {
         System.out.println("Hola soy un arbol");
     }
     

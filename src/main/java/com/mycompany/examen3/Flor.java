@@ -96,6 +96,11 @@ public class Flor extends Planta{
     public void mostrarMensajeFlor(){
         System.out.println("Hola soy una flor");
     }
+
+    @Override
+    public void mostrarMensaje1() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
     
     
